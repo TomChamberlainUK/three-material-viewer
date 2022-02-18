@@ -39,6 +39,7 @@ module.exports = {
   output: {
     filename: '[name].[contenthash].js',
     path: path.resolve(__dirname, 'dist'),
+    publicPath: '/three-material-viewer',
     clean: true
   },
   plugins: [

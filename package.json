@@ -6,7 +6,8 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch",
-    "start": "webpack serve --open"
+    "start": "webpack serve --open",
+    "deploy": "webpack && gh-pages -d dist"
   },
   "author": "",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "@types/three": "^0.136.1",
     "@types/webpack-env": "^1.16.3",
     "css-loader": "^6.5.1",
+    "gh-pages": "^3.2.3",
     "gltf-pipeline": "^3.0.4",
     "html-webpack-plugin": "^5.5.0",
     "style-loader": "^3.3.1",
